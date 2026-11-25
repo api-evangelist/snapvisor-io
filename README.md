@@ -1,4 +1,4 @@
-# snapvisor-io
+# Snapvisor
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,155 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-snapvisor-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://snapvisor.io/
+Snapvisor provides visual regression testing and review workflow for web applications. It captures screenshots of pages, detects visual changes, and lets teams approve or reject updates via pull‑request status checks. Snapvisor integrates with CI/CD tools like GitHub, GitLab, Playwright, Cypress, Storybook, and Puppeteer, offering self‑hosting options, role‑based access, SSO/SAML, and usage‑based pricing. The platform is built on an open‑source engine and includes an MCP server for AI agents to create builds and run visual diffs.
+
+**Areas:** Visual Regression · CI/CD · Open Source · SaaS · AI Integration
+
+## Snapvisor on APIs.io
+
+Everything profiled for Snapvisor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/snapvisor-io/](https://apis.io/providers/snapvisor-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (18)
+
+- [Snapvisor Analytics API](https://apis.io/apis/snapvisor-io/snapvisor-io-analytics-api/) — Retrieve account-level build and screenshot metrics over time.
+- [Snapvisor Authentication API](https://apis.io/apis/snapvisor-io/snapvisor-io-authentication-api/) — Exchange CI and CLI credentials for a Snapvisor project token. Use these endpoints to obtain the bearer token that authenticates every other request.
+- [Snapvisor Automations API](https://apis.io/apis/snapvisor-io/snapvisor-io-automations-api/) — Run actions when a build event matches your conditions — post to Slack, Microsoft Teams or Discord when a build completes or is reviewed.
+- [Snapvisor Billing API](https://apis.io/apis/snapvisor-io/snapvisor-io-billing-api/) — Read a team's plan and usage, list plans, and start an upgrade, a cancellation or a spend limit change. Payment pages open through single-use links.
+- [Snapvisor Builds API](https://apis.io/apis/snapvisor-io/snapvisor-io-builds-api/) — Create, finalize, update, and inspect visual testing builds, including their screenshot diffs. This is the core of the visual testing workflow.
+- [Snapvisor Comments API](https://apis.io/apis/snapvisor-io/snapvisor-io-comments-api/) — Collaborate on builds with threaded comments: post and edit comments, react with emojis, resolve threads, and manage notification subscriptions.
+- [Snapvisor Deployments API](https://apis.io/apis/snapvisor-io/snapvisor-io-deployments-api/) — Create, finalize, and resolve deployments to publish and serve project artifacts.
+- [Snapvisor Free tools API](https://apis.io/apis/snapvisor-io/snapvisor-io-free-tools-api/) — Free endpoints with no key: compare two images with the same diff engine every build uses. Limited per address; see each operation.
+- [Snapvisor Integrations API](https://apis.io/apis/snapvisor-io/snapvisor-io-integrations-api/) — List, connect, check and disconnect the services an account uses: GitHub, GitLab, Cursor Origin, Slack, Discord, Microsoft Teams, and your own sign-in…
+- [Snapvisor Media API](https://apis.io/apis/snapvisor-io/snapvisor-io-media-api/) — Upload standalone images and videos, with no build or test run behind them, and get back a shareable URL plus ready-to-paste Markdown. Built for embedding a…
+- [Snapvisor Members API](https://apis.io/apis/snapvisor-io/snapvisor-io-members-api/) — Manage who is on a team and what they can reach: list members, change their role, remove them, and send or cancel invitations.
+- [Snapvisor Projects API](https://apis.io/apis/snapvisor-io/snapvisor-io-projects-api/) — Retrieve project metadata, either by slug or for the project tied to the current token.
+- [Snapvisor Repos API](https://apis.io/apis/snapvisor-io/snapvisor-io-repos-api/) — The Repos API from Snapvisor — 1 operation(s) for repos.
+- [Snapvisor Reviews API](https://apis.io/apis/snapvisor-io/snapvisor-io-reviews-api/) — Submit, list, and dismiss reviews to approve or reject the changes captured in a build.
+- [Snapvisor Support API](https://apis.io/apis/snapvisor-io/snapvisor-io-support-api/) — Send a request to the support team and list the requests you sent. Replies arrive by email.
+- [Snapvisor Teams API](https://apis.io/apis/snapvisor-io/snapvisor-io-teams-api/) — The Teams API from Snapvisor — 3 operation(s) for teams.
+- [Snapvisor Tests API](https://apis.io/apis/snapvisor-io/snapvisor-io-tests-api/) — Inspect a test's flakiness — how often it changed and how erratically — list the changes that keep coming back, and ignore the ones that are only noise.
+- [Snapvisor Users API](https://apis.io/apis/snapvisor-io/snapvisor-io-users-api/) — Retrieve information about the user authenticated by the current personal access token.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Snapvisor Agentic Access](https://apis.io/agentic-access/snapvisor-io/snapvisor-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AccountAnalytics](https://apis.io/schemas/snapvisor-io/snapvisor-io-account-analytics/)
+- [BillingStatus](https://apis.io/schemas/snapvisor-io/snapvisor-io-billing-status/)
+- [Build](https://apis.io/schemas/snapvisor-io/snapvisor-io-build/)
+- [Media](https://apis.io/schemas/snapvisor-io/snapvisor-io-media/)
+- [ScreenshotInput](https://apis.io/schemas/snapvisor-io/snapvisor-io-screenshot-input/)
+- [SnapshotDiff](https://apis.io/schemas/snapvisor-io/snapvisor-io-snapshot-diff/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Snapvisor Io Context](https://apis.io/jsonld/snapvisor-io/snapvisor-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Snapvisor API Rules](https://apis.io/rules/snapvisor-io/snapvisor-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Snapvisor Authentication](https://apis.io/security/snapvisor-io/snapvisor-io-authentication/)
+- [Snapvisor Domain Security](https://apis.io/security/snapvisor-io/snapvisor-io-domain-security/)
+- [Snapvisor Vulnerability Disclosure](https://apis.io/security/snapvisor-io/snapvisor-io-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Snapvisor Scopes](https://apis.io/scopes/snapvisor-io/snapvisor-io-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Snapvisor Plans Pricing](https://apis.io/plans/snapvisor-io/snapvisor-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://snapvisor.io/)
+- [Documentation](https://snapvisor.io/docs)
+- [Getting started](https://snapvisor.io/docs/getting-started)
+- [API reference](https://snapvisor.io/docs/api-reference)
+- [Pricing](https://snapvisor.io/docs/pricing)
+- [Sign up](https://app.snapvisor.io/signup)
+- [Support](https://snapvisor.io/docs/team-members-and-roles)
+- [Terms of service](https://snapvisor.io/terms)
+- [Privacy policy](https://snapvisor.io/privacy)
+- [Status](https://status.snapvisor.io/)
+
+## API Evangelist rating
+
+**Kin Score 66.9** — exemplar · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 62.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 66.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 62.5** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/snapvisor-io/](https://apis.io/providers/snapvisor-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Snapvisor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/snapvisor-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
